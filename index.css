@@ -104,3 +104,13 @@ nav a {
         font-weight: lighter;
         text-decoration-line: overline;
     }
+
+    section > .container {
+        margin: 5em;
+        font-size: 93.75%;
+
+    }
+
+    section > .container a {
+        border:none;
+    }
