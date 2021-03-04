@@ -532,6 +532,17 @@ p > .TipoPublicacao{
   font-size: 1em;
 }
 
+.midias{
+  max-width: 30px;
+  max-height: 45px;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  margin-top: 15px;
+  filter: grayscale(100%);
+}
+
+
 footer .flex-container > div {
   margin: 10px;
   text-align: center;
@@ -614,6 +625,25 @@ footer .endereço {
     height: 60px; 
     width: 280px;
   }
+
+  footer .contatos {
+    font-size: 15px;        
+  }
+  footer .endereço {
+    font-size: 15px;
+
+  }
+
+  footer .politica {
+    font-size: 15px;
+
+  }
+
+  footer p {
+    font-size: 15px;
+
+  }
+
 }
 
 @media only screen and (max-width: 1010px) {
@@ -652,7 +682,7 @@ footer .endereço {
 }
 
 @media only screen and (max-width: 650px) {
- 
+
   .video-responsive iframe {
     height: 210px; 
     width: 400px;
