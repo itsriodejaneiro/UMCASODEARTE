@@ -101,13 +101,11 @@ h2 {
 }
 
 .error{
-  margin-top: 5%;
-  margin-left: 20%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .error > img{
-  margin-left: 25%;
-  margin-top: 5%;
 }
 
 /* Style the buttons */
@@ -463,70 +461,9 @@ h2 {
   }
 
   /*fim das cores dos eixos*/
-
-/* Tentativa de organização de elementos dentro do card, não consegui colocar de forma responsiva com o zoom da página
-
-.DataPublicacao{
-  font-size: 10px;
-  position: absolute;
-  margin-left: 10px;
-  margin-top: 10px;
-
+.hide {
+  display: none;
 }
-.TituloPublicacao{
-  font-size: 23px;
-  padding: 5px;
-  position: relative;
-  bottom: -120px;
-
-}
-p > .AutorPublicacao{
-  position: absolute;
-  text-align: center;
-}
-
-.AutorPublicacao{
-  font-size: 10px;
-  margin-top: 130px;
-}
-
-p > .EixoPublicacao{
-  position: absolute;
-
-}
-
-.EixoPublicacao{
-  font-size: 10px;
-  text-align: left !important; 
-  margin-left: 15px;
-  margin-top: 120px;
-}
-
-p > .TipoPublicacao{
-  position: absolute;
-}
-
-.TipoPublicacao{
-  font-size: 10px;
-  text-align: right !important;  
-  margin-right: 15px;
-}
-
-.EixoPublicacao2{
-  font-size: 10px;
-  position: relative;
-  left: -150px;
-  bottom: -230px;
-
-}
-.TipoPublicacao2{
-  font-size: 10px;
-  position: relative;
-  left: 130px;
-  bottom: -210px;
-
-}
-*/
 .flex-container {
   display: flex;
   margin-left: 15%;
