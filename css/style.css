@@ -112,7 +112,6 @@ h2 {
 }
 
 .btn:hover {
-  padding: 10px 30px;
   border: 1px solid #707070;
   background-color: #666;
   color: white;
@@ -143,15 +142,12 @@ h2 {
   }
 
   .rosa1:hover {
-    padding: 10px 30px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
-    transition: 0.4s ease-in-out;
   }
 
   .rosa1fundo:hover {
-    padding: 10px 30px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -169,7 +165,6 @@ h2 {
   }
 
   .laranja2:hover {
-    padding: 10px 30px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -195,7 +190,6 @@ h2 {
   }
 
   .amarelo3:hover {
-    padding: 10px 30px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -221,7 +215,6 @@ h2 {
   }
 
   .verde4:hover {
-    padding: 10px 30px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -241,6 +234,32 @@ h2 {
     background-color: #4FCF6C;
   }
 
+  .vermelho1 {
+    color: white;
+    background-color: #DC143C;
+  }
+
+  .vermelho1:hover {
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
+
+  .vermelho1fundo:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #DC143C;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
+
+  .vermelho1.active {
+    color: white;
+    background-color: #DC143C
+    ;
+  }
+
   .cinza5 {
     color: white;
     background-color: #43444A;
@@ -255,7 +274,6 @@ h2 {
   }
 
   .cinza5fundo:hover {
-    padding: 10px 30px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -274,7 +292,6 @@ h2 {
   }
 
   .azulclaro6:hover {
-    padding: 10px 30px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -300,7 +317,7 @@ h2 {
   }
 
   .azulmedio7:hover {
-    padding: 10px 30px;
+
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -326,7 +343,6 @@ h2 {
   }
 
   .azulescuro8:hover {
-    padding: 10px 30px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -352,7 +368,6 @@ h2 {
   }
 
   .rosa9:hover {
-    padding: 10px 30px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -379,7 +394,6 @@ h2 {
   }
 
   .roxo10:hover {
-    padding: 10px 30px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -405,7 +419,6 @@ h2 {
   }
 
   .amareloclaro11:hover {
-    padding: 10px 30px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -431,7 +444,7 @@ h2 {
   }
 
   .ultimo12:hover {
-    padding: 10px 30px;
+
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -631,6 +644,8 @@ h2 {
     width: 354px;
     height: 48px;
     font-size: 16px;
+    word-wrap: break-word;
+
   }
   .container {
     width: 408px;
