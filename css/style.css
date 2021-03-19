@@ -38,7 +38,7 @@ html, body {
   flex-direction: column;
   margin: 24px auto;
   border: transparent;
-  width: 1224px;
+  max-width: 1224px;
 }
 
 .topo img{
@@ -548,7 +548,7 @@ h2 {
     font-size: 1.5rem;
   }
   .container {
-    width: 2040px;
+    width: 1640px;
   }
 }
 @media only screen and (max-width: 1800px) {
@@ -566,21 +566,27 @@ h2 {
 }
 @media only screen and (max-width: 1440px) {
   .topo {
-    margin-top: 64px;
-    width: 1224px;
+    margin: 32px auto;
+    max-width: 994px;
+  }
+  .topo p {
+    max-width: 994px;
   }
   .descricao {
-    /* font-size: initial; */
+    font-size: initial;
   }
   .container {
-    width: 1224px;
+    width: 824px;
   }
  
 }
 
 @media only screen and (max-width: 1124px) {
   .topo {
-    width: 816px;
+    max-width: 824px;
+  }
+  .topo p {
+    max-width: 824px;
   }
   .descricao {
     font-size: initial;
@@ -597,7 +603,10 @@ h2 {
     width: 580px;
   }
   .topo {
-    width: 672px;
+    max-width: 672px;
+  }
+  .topo p {
+    max-width: 672px;
   }
   .btn {
     width: 211px;
@@ -606,6 +615,7 @@ h2 {
   }
   .descricao {
     font-size: 1.3rem;
+    max-width: 672px;
   }
   .container {
     width: 408px;
@@ -629,11 +639,12 @@ h2 {
     width: 100%;
   }
   .topo p {
-    line-break: auto;
-    display: inline-block;
+    width: 354px;
   }
   .descricao {
     font-size: 0.7em;
+    width: 354px;
+
   }
   #myBtnContainer {
     text-align: center;
