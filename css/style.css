@@ -564,7 +564,7 @@ h2 {
   }
  
 }
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1440px) and (min-width: 1350) {
   .topo {
     margin: 32px auto;
     max-width: 994px;
@@ -573,6 +573,7 @@ h2 {
     max-width: 994px;
   }
   .descricao {
+    max-width: 994px;
     font-size: initial;
   }
   .container {
@@ -580,6 +581,20 @@ h2 {
   }
  
 }
+
+/* @media only screen and (min-width: 1350px) {
+  .topo {
+    margin-top: 64px;
+    max-width: 1224px;
+  }
+  .descricao {
+    font-size: 1em;
+  }
+  .container {
+    max-width: 1224px;
+  }
+ 
+} */
 
 @media only screen and (max-width: 1124px) {
   .topo {
@@ -589,6 +604,7 @@ h2 {
     max-width: 824px;
   }
   .descricao {
+    max-width: 824px;
     font-size: initial;
   }
   .container {
@@ -596,7 +612,6 @@ h2 {
   }
  
 }
-
 @media only screen and (max-width: 768px) {
   .video-responsive iframe {
     height: 300px; 
@@ -622,7 +637,6 @@ h2 {
   }
 
 }
-
 @media only screen and (max-width: 425px) {
 
   .video-responsive iframe {
