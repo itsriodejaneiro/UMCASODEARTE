@@ -25,7 +25,6 @@
 html, body {
   line-height: 1.5;
   font: normal 27px Titillium Web;
-
   color: var(--black);
   background: #FBF3E6 0% 0% no-repeat padding-box;
   opacity: 1;
@@ -135,6 +134,29 @@ h2 {
   }
 
   /*Cores dos eixos*/
+  .intro {
+    color: white;
+    background-color: #DC143C;
+  }
+
+  .intro:hover {
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+  }
+
+  .introFundo:hover {
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
+
+  .intro.active {
+    color: white;
+    background-color: #FD5363;
+  }
+
   .rosa1 {
     color: white;
     background-color: #FD5363;
@@ -171,7 +193,7 @@ h2 {
   }
 
   .laranja2fundo:hover {
-    padding: 10px 30px;
+    padding: 0 0 4px px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -196,7 +218,7 @@ h2 {
   }
 
   .amarelo3fundo:hover {
-    padding: 10px 30px;
+    padding: 4px 8px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -221,7 +243,7 @@ h2 {
   }
 
   .verde4fundo:hover {
-    padding: 10px 30px;
+    padding: 4px 8px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -246,7 +268,7 @@ h2 {
   }
 
   .vermelho1fundo:hover {
-    padding: 10px 30px;
+    padding: 4px 8px;
     border: 1px solid #707070;
     background-color: #DC143C;
     color: white;
@@ -255,8 +277,7 @@ h2 {
 
   .vermelho1.active {
     color: white;
-    background-color: #DC143C
-    ;
+    background-color: #DC143C;
   }
 
   .cinza5 {
@@ -265,7 +286,7 @@ h2 {
   }
 
   .cinza5:hover {
-    padding: 10px 30px;
+    padding: 4px 8px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -298,7 +319,7 @@ h2 {
   }
 
   .azulclaro6fundo:hover {
-    padding: 10px 30px;
+    padding: 4px 8px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -324,7 +345,7 @@ h2 {
   }
 
   .azulmedio7fundo:hover {
-    padding: 10px 30px;
+    padding: 4px 8px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -349,7 +370,7 @@ h2 {
   }
 
   .azulescuro8fundo:hover {
-    padding: 10px 30px;
+    padding: 4px 8px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -374,7 +395,7 @@ h2 {
   }
 
   .rosa9fundo:hover {
-    padding: 10px 30px;
+    padding: 4px 8px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -400,7 +421,7 @@ h2 {
   }
 
   .roxo10fundo:hover {
-    padding: 10px 30px;
+    padding: 4px 8px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -425,7 +446,7 @@ h2 {
   }
 
   .amareloclaro11fundo:hover {
-    padding: 10px 30px;
+    padding: 4px 8px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -451,7 +472,7 @@ h2 {
   }
 
   .ultimo12fundo:hover {
-    padding: 10px 30px;
+    padding: 4px 8px;
     border: 1px solid #707070;
     background-color: #666;
     color: white;
@@ -463,13 +484,6 @@ h2 {
     background-color: #1B85F7;
   }
 
-  /* Imagens dos eixos */
-
-  .eixo1 {
-    background-image: url(../Fundos/Eixo1/Video1-eixo1.png);
-  }
-
-  /*fim das cores dos eixos*/
   .hide {
     display: none;
   }
@@ -504,12 +518,40 @@ h2 {
     height: 660px; 
     width: 1080px;
   }
-  section > .container-artigo {
-    margin: 4rem;
-
+  
+  /* Estilo para o artigo e seus elementos */
+  .container-artigo {
+    margin: 0 auto;
     font-size: 93.75%;
-
+    max-width: 80%;
+    font: normal 27px Titillium Web;
   }
+  .container-artigo time {
+    display: block;
+    margin: 8px 0 64px;
+  }
+  .container-artigo h1 {
+    margin: 0 0 64px;
+  }
+  .container-artigo p {
+    margin: 32px 0;
+  }
+  .container-artigo li {
+    margin-left: 6%;
+    text-align: justify;
+    margin-bottom: 32px;
+  }
+  .voltar--artigo {
+    margin-left: 6%;
+    margin-bottom: 32px;
+  }
+  .voltar--artigo a {
+    text-decoration: underline; 
+    color: var(--grey);
+    font: normal 24px/36px Titillium Web;
+    
+  }
+  /* Finaliza estilo artigo */
   footer {
     background-color: var(--black);
     color: white;
