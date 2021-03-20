@@ -28,6 +28,7 @@ html, body {
   color: var(--black);
   background: #FBF3E6 0% 0% no-repeat padding-box;
   opacity: 1;
+  scroll-behavior: smooth;
 }
 
 .topo {
@@ -666,7 +667,7 @@ h2 {
   }
  
 }
-@media only screen and (max-width: 1440px) and (min-width: 1350) {
+@media only screen and (max-width: 1440px) and (min-width: 1350px) {
   .topo {
     margin: 32px auto;
     max-width: 994px;
@@ -746,7 +747,7 @@ h2 {
     width: 400px;
   }
   .topo {
-    width: 354px;
+    max-width: 90%;
     margin: 32px auto;
     display: flex;
     flex-flow: column;
@@ -772,8 +773,57 @@ h2 {
     word-wrap: break-word;
 
   }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  .video-responsive iframe {
+    height: 210px; 
+    width: 400px;
+  }
+  .topo {
+    max-width: 280px;
+    margin: 32px auto;
+    display: flex;
+    flex-flow: column;
+  }
+  .topo img {
+    width: 100%;
+    height: 80px;
+  }
+  .topo p {
+    width: 280px;
+  }
+  .descricao {
+    font-size: 0.7em;
+    width: 280px;
+
+  }
+  #myBtnContainer {
+    text-align: center;
+  }
+  .btn {
+    width: 280px;
+    height: 48px;
+    font-size: 16px;
+    word-wrap: break-word;
+
+  }
   .container {
-    width: 408px;
+    margin: 0 auto;
+    text-align: center;
+    width: 280px;
+  }
+  .container .filterDiv {
+    width: 280px;
+    height: 280px;
+    margin: 4px 0;
+  }
+  .container a img {
+    width: 280px;
+    margin: 0 auto;
+    text-align: center;
   }
 
 }
@@ -871,7 +921,7 @@ h2 {
   align-self: normal;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .box-cookies {
     flex-direction: column;
   }
@@ -883,4 +933,4 @@ h2 {
 
 .btn-cookies {
   margin: 4% 0;
-}
+} */
