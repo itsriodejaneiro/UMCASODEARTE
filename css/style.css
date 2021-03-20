@@ -514,11 +514,21 @@ h2 {
     text-align: center;
     line-height: 1.5;
   }
+
+  /* Estilo para video */
+  .container-video {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .video-responsive {
+    text-align: center;
+    margin-bottom: 64px;
+  }
   .video-responsive iframe {
     height: 660px; 
     width: 1080px;
   }
-  
+
   /* Estilo para o artigo e seus elementos */
   .topo--artigo {
     margin: 0 auto;
