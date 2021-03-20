@@ -520,18 +520,36 @@ h2 {
   }
   
   /* Estilo para o artigo e seus elementos */
+  .topo--artigo {
+    margin: 0 auto;
+    max-width: 80%;
+    font-size: 1em;
+    font: normal 24px/36px Titillium Web;
+    display: flex;
+    flex-direction: column;
+    margin: 24px auto;
+    border: transparent;
+  }
+  .topo--artigo a {
+    text-decoration: underline; 
+    color: var(--grey);
+    font: normal 24px/36px Titillium Web;
+  }
   .container-artigo {
     margin: 0 auto;
     font-size: 93.75%;
     max-width: 80%;
     font: normal 27px Titillium Web;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: justify;
   }
   .container-artigo time {
     display: block;
     margin: 8px 0 64px;
   }
   .container-artigo h1 {
-    margin: 0 0 64px;
+    margin: 24px 0 64px;
   }
   .container-artigo p {
     margin: 32px 0;
@@ -541,15 +559,47 @@ h2 {
     text-align: justify;
     margin-bottom: 32px;
   }
+  .text--centralizado {
+    text-align: center;
+  }
+  .container-artigo figure {
+    text-align: center;
+  }
+  .container-artigo blockquote {
+    border: solid 1px;
+    padding: 8px;
+    text-align: justify;
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .container-artigo blockquote p{
+    margin: 8px 0 16px 0;
+  }
   .voltar--artigo {
-    margin-left: 6%;
-    margin-bottom: 32px;
+    margin: 32px auto 32px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
   }
   .voltar--artigo a {
     text-decoration: underline; 
     color: var(--grey);
     font: normal 24px/36px Titillium Web;
-    
+  }
+  .artigo--pagina1 {
+    display: none;
+  }
+  .seta-direita:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 4px 0 4px;
+    width: 0; 
+    height: 0; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 30px solid green;
   }
   /* Finaliza estilo artigo */
   footer {
