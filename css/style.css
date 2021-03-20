@@ -63,6 +63,9 @@ html, body {
   text-decoration: underline; 
   color: var(--grey);
 }
+.topo .saltar {
+  text-decoration: none;
+}
 
 .topo p {
   margin: 32px 0 0 0;
