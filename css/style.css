@@ -1,7 +1,15 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-decoration: none;
 }
 
@@ -34,8 +42,13 @@ html, body {
 .topo {
   font-size: 1em;
   font: normal 24px/36px Titillium Web;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 24px auto;
   border: transparent;
   max-width: 1224px;
@@ -88,8 +101,11 @@ h2 {
 }
 
 .container {
+ display: -webkit-box;
+ display: -ms-flexbox;
  display: flex;
- flex-wrap: wrap;
+ -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
  margin: 0 auto 32px;
  width: 1224px;
 }
@@ -114,6 +130,8 @@ h2 {
   border: 1px solid #707070;
   background-color: #666;
   color: white;
+  -webkit-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
 }
 
@@ -131,6 +149,8 @@ h2 {
 
   .selecao {
     float: right;
+    -webkit-transition: none;
+    -o-transition: none;
     transition: none;
   }
 
@@ -150,6 +170,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -173,6 +195,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -190,6 +214,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -198,6 +224,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -215,6 +243,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -223,6 +253,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -240,6 +272,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -248,6 +282,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -265,6 +301,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -273,6 +311,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #DC143C;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -291,6 +331,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -298,6 +340,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -316,6 +360,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -324,6 +370,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -342,6 +390,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -350,6 +400,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -367,6 +419,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -375,6 +429,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -392,6 +448,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -400,6 +458,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -418,6 +478,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -426,6 +488,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -443,6 +507,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -451,6 +517,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -469,6 +537,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -477,6 +547,8 @@ h2 {
     border: 1px solid #707070;
     background-color: #666;
     color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
 
@@ -489,9 +561,14 @@ h2 {
     display: none;
   }
   .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: 15%;
-    flex-flow: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
   }
   .flex-container > div {
     width: 80%;
@@ -508,7 +585,8 @@ h2 {
     height: auto;
     padding: 5px;
     margin-top: 15px;
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
   }
   footer .flex-container > div {
     margin: 10px;
@@ -536,8 +614,13 @@ h2 {
     max-width: 80%;
     font-size: 1em;
     font: normal 24px/36px Titillium Web;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 24px auto;
     border: transparent;
   }
@@ -551,7 +634,8 @@ h2 {
     font-size: 93.75%;
     max-width: 80%;
     font: normal 27px Titillium Web;
-    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
     overflow: hidden;
     text-align: justify;
   }
@@ -581,7 +665,8 @@ h2 {
     padding: 8px;
     text-align: justify;
     margin: 0;
-    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
     overflow: hidden;
   }
   .container-artigo blockquote p{
@@ -589,8 +674,12 @@ h2 {
   }
   .voltar--artigo {
     margin: 32px auto 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     max-width: 80%;
   }
   .voltar--artigo a {
@@ -616,7 +705,8 @@ h2 {
   footer {
     background-color: var(--black);
     color: white;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     padding-top: 5%;
     font-size: 81.25%;
   }
@@ -749,8 +839,13 @@ h2 {
   .topo {
     max-width: 90%;
     margin: 32px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
   }
   .topo img {
     width: 100%;
@@ -785,8 +880,13 @@ h2 {
   .topo {
     max-width: 280px;
     margin: 32px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
   }
   .topo img {
     width: 100%;
@@ -902,9 +1002,15 @@ h2 {
   width: 100%;
   z-index: 998;
   bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .box-cookies .msg-cookies,
@@ -918,7 +1024,9 @@ h2 {
 .box-cookies .btn-cookies {
   background: var(--grey);
   cursor: pointer;
-  align-self: normal;
+  -ms-flex-item-align: normal;
+      -ms-grid-row-align: normal;
+      align-self: normal;
 }
 
 /* @media screen and (max-width: 600px) {
