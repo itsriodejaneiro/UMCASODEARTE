@@ -1048,7 +1048,8 @@
   }
 
   .box-cookies .btn-cookies {
-    background: var(--grey);
+    background: white;
+    color: black;
     cursor: pointer;
     -ms-flex-item-align: normal;
     -ms-grid-row-align: normal;
