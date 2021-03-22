@@ -1042,6 +1042,11 @@
     font-size: 18px;
   }
 
+   .msg-cookies > a {
+    text-decoration: underline;
+    color: #fff;
+  }
+
   .box-cookies .btn-cookies {
     background: var(--grey);
     cursor: pointer;
