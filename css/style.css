@@ -108,38 +108,38 @@
    flex-wrap: wrap;
    margin: 0 auto 32px;
    width: 1224px;
-  }
+ }
 
-  .error{
-    margin: 0 auto;
-    text-align: center;
-  }
+ .error{
+  margin: 0 auto;
+  text-align: center;
+}
 
-  /* Style the buttons */
-  .btn {
-    border: none;
-    outline: none;
-    width: 160px;
-    height: 54px;
-    margin-top: 8px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-  }
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  width: 160px;
+  height: 54px;
+  margin-top: 8px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
 
-  .btn:hover {
-    border: 1px solid #707070;
-    background-color: #666;
-    color: white;
-    -webkit-transition: 0.4s ease-in-out;
-    -o-transition: 0.4s ease-in-out;
-    transition: 0.4s ease-in-out;
-  }
+.btn:hover {
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  -webkit-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
 
-  .btn.active {
-    background-color: #f1f1f1;
-    color: black;
-    border-color: #666;
-  }
+.btn.active {
+  background-color: #f1f1f1;
+  color: black;
+  border-color: #666;
+}
 
   /*.btn:not(.active) {
     background-color: transparent;
@@ -714,7 +714,9 @@
       text-decoration: none;
       color: white;
       position: relative;
+      text-align: left;
     }
+
     footer img {
       width: 35vh;
     }
@@ -828,6 +830,30 @@
         width: 408px;
       }
 
+      .container-video h1 {
+        line-height: 1;
+      }
+
+      footer a {
+        text-decoration: none;
+        color: white;
+        position: relative;
+      }
+      footer img {
+        width: 35vh;
+      }
+      footer .contatos {
+        text-align: left;        
+      }
+      footer .endereço {
+        text-align: center;
+
+      }
+      .footer p{
+        text-align: center;
+        margin-left:30px;
+      }
+
     }
     @media only screen and (max-width: 425px) {
 
@@ -849,7 +875,6 @@
       .topo img {
         width: 100%;
       }
-      
       .topo--artigo img {
         width: 100%;
       }
@@ -857,7 +882,7 @@
       .container-video h1 {
         line-height: 1;
       }
-      
+
       .topo p {
         width: 354px;
       }
@@ -875,6 +900,26 @@
         font-size: 16px;
         word-wrap: break-word;
 
+      }
+
+      footer a {
+        text-decoration: none;
+        color: white;
+        position: relative;
+      }
+      footer img {
+        width: 35vh;
+      }
+      footer .contatos {
+        text-align: left;        
+      }
+      footer .endereço {
+        text-align: center;
+
+      }
+      .footer p{
+        text-align: center;
+        margin-left:30px;
       }
 
     }
@@ -932,6 +977,26 @@
         width: 280px;
         margin: 0 auto;
         text-align: center;
+      }
+
+      footer a {
+        text-decoration: none;
+        color: white;
+        position: relative;
+      }
+      footer img {
+        width: 35vh;
+      }
+      footer .contatos {
+        text-align: left;        
+      }
+      footer .endereço {
+        text-align: center;
+
+      }
+      .footer p{
+        text-align: center;
+        margin-left:30px;
       }
 
     }
@@ -1005,65 +1070,73 @@
       width: 100%;
     }
 
-    .descricao {
-      width: 100%;
-    }
-  }
-  }
-
-  @media only screen and (max-width: 765px) {
-    .topo {
-      width: 100%;
+    .container-video h1 {
+      line-height: 1;
     }
 
     .descricao {
       width: 100%;
-      font-size: 1rem;
     }
   }
-  }
-  .box-cookies.hide {
-    display: none !important;
-  }
+}
 
-  .box-cookies {
-    position: fixed;
-    background: rgba(7, 7, 1, 0.90);
+@media only screen and (max-width: 765px) {
+  .topo {
     width: 100%;
-    z-index: 998;
-    bottom: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
   }
 
-  .box-cookies .msg-cookies,
-  .box-cookies .btn-cookies {
-    text-align: center;
-    padding: 15px 40px;
-    color: #fff;
-    font-size: 18px;
+  .container-video h1 {
+    line-height: 1;
   }
 
-   .msg-cookies > a {
-    text-decoration: underline;
-    color: #fff;
+  .descricao {
+    width: 100%;
+    font-size: 1rem;
   }
+}
+}
+.box-cookies.hide {
+  display: none !important;
+}
 
-  .box-cookies .btn-cookies {
-    background: white;
-    color: black;
-    cursor: pointer;
-    -ms-flex-item-align: normal;
-    -ms-grid-row-align: normal;
-    align-self: normal;
-  }
+.box-cookies {
+  position: fixed;
+  background: rgba(7, 7, 1, 0.90);
+  width: 100%;
+  z-index: 998;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.box-cookies .msg-cookies,
+.box-cookies .btn-cookies {
+  text-align: center;
+  padding: 15px 40px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.msg-cookies > a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.box-cookies .btn-cookies {
+  background: white;
+  color: black;
+  cursor: pointer;
+  -ms-flex-item-align: normal;
+  -ms-grid-row-align: normal;
+  align-self: normal;
+}
 
   /* @media screen and (max-width: 600px) {
     .box-cookies {
