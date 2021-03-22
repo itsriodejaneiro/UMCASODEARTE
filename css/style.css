@@ -849,6 +849,15 @@
       .topo img {
         width: 100%;
       }
+      
+      .topo--artigo img {
+        width: 100%;
+      }
+
+      .container-video h1 {
+        line-height: 1;
+      }
+      
       .topo p {
         width: 354px;
       }
