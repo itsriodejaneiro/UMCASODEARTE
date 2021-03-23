@@ -1078,7 +1078,7 @@
       width: 100%;
     }
   }
-}
+
 
 @media only screen and (max-width: 765px) {
   .topo {
@@ -1094,7 +1094,7 @@
     font-size: 1rem;
   }
 }
-}
+
 .box-cookies.hide {
   display: none !important;
 }
