@@ -13,6 +13,10 @@
     text-decoration: none;
   }
 
+ .container-artigo a {
+color: #FC7F23;
+  }
+
   :root {
     --black: #343434;
     --red: #FD5363;
